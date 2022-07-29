@@ -14,6 +14,3 @@ pipeline:
       configPath: setlabels.yaml
     - image: apply-replacements:v0.1.1
       configPath: fn-config-update-host.yaml
-  validators:
-    - image: starlark:v0.4.3
-      configPath: fn-config-validate-host.yaml
